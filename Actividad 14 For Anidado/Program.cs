@@ -79,4 +79,14 @@ switch (ejercicio)
             Console.WriteLine($"{i} - {j}");
         }
         break;
+    case 8:
+        Console.WriteLine("Ejercicio 8");
+        for (int i = 1; i <= 4; i++)
+        {
+            for (int j = 1; j <= 4; j++)
+                Console.Write($"{  j  } - {  i  }  ");
+            Console.WriteLine();
+        }
+        break;
+
 }
