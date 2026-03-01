@@ -73,5 +73,10 @@ switch (ejercicio)
         
     case 7:
         Console.WriteLine("Ejercicio 7");
+        for (int i = 1; i <= 3; i++)
+        {
+            for(int j = 1; j <= 3; j++)
+            Console.WriteLine($"{i} - {j}");
+        }
         break;
 }
